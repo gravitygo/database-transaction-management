@@ -23,6 +23,11 @@ public class Database {
             }
         }
     }
+    public Connection getConnection(){
+        return conn;
+    }
+
+    //TODO: Not suree abt this yet*
     public ResultSet useQuery(String query, String[] values) throws SQLException {
         connect();
         conn.setAutoCommit(false);

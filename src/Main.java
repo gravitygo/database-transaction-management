@@ -39,15 +39,19 @@ public class Main {
             }
         }
     }
+    //TODO: Chyle
     public void createOrder(){
         System.out.println("1.) Create and Order");
     }
+    //TODO
     public void inquireProducts(){
         System.out.println("2.) Inquire products");
     }
+    //TODO
     public void getOrderInfo(){
         System.out.println("3.) Retrieve order info");
     }
+    //TODO
     public void cancelOrder(){
         System.out.println("4.) Cancel Order");
     }
